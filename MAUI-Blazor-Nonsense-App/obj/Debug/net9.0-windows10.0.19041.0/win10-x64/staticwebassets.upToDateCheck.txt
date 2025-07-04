@@ -1,0 +1,4 @@
+wwwroot\css\app.css
+wwwroot\index.html
+C:\Projekty\Portfolio-Repository\MAUI-Blazor-Nonsense-App\MAUI-Blazor-Nonsense-App\wwwroot\css\app.css
+C:\Projekty\Portfolio-Repository\MAUI-Blazor-Nonsense-App\MAUI-Blazor-Nonsense-App\wwwroot\index.html

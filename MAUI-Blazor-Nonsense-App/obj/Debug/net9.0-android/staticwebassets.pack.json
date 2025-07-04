@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projekty\\Portfolio-Repository\\MAUI-Blazor-Nonsense-App\\MAUI-Blazor-Nonsense-App\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MAUI-Blazor-Nonsense-App.styles.css",
+      "PackagePath": "staticwebassets\\MAUI-Blazor-Nonsense-App.styles.css"
+    },
+    {
+      "Id": "C:\\Projekty\\Portfolio-Repository\\MAUI-Blazor-Nonsense-App\\MAUI-Blazor-Nonsense-App\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Projekty\\Portfolio-Repository\\MAUI-Blazor-Nonsense-App\\MAUI-Blazor-Nonsense-App\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-android\\staticwebassets\\msbuild.MAUI-Blazor-Nonsense-App.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-android\\staticwebassets\\msbuild.MAUI-Blazor-Nonsense-App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-android\\staticwebassets\\msbuild.build.MAUI-Blazor-Nonsense-App.props",
+      "PackagePath": "build\\MAUI-Blazor-Nonsense-App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-android\\staticwebassets\\msbuild.buildMultiTargeting.MAUI-Blazor-Nonsense-App.props",
+      "PackagePath": "buildMultiTargeting\\MAUI-Blazor-Nonsense-App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-android\\staticwebassets\\msbuild.buildTransitive.MAUI-Blazor-Nonsense-App.props",
+      "PackagePath": "buildTransitive\\MAUI-Blazor-Nonsense-App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
