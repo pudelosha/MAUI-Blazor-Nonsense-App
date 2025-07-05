@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using MAUI_Blazor_Nonsense_App.Services;
+using Microsoft.Extensions.Logging;
+using Radzen;
 
 namespace MAUI_Blazor_Nonsense_App
 {
@@ -17,9 +19,24 @@ namespace MAUI_Blazor_Nonsense_App
             builder.Services.AddMauiBlazorWebView();
 
 #if DEBUG
-    		builder.Services.AddBlazorWebViewDeveloperTools();
-    		builder.Logging.AddDebug();
+            builder.Services.AddBlazorWebViewDeveloperTools();
+            builder.Logging.AddDebug();
 #endif
+
+            // Register Radzen components
+            builder.Services.AddRadzenComponents();
+
+            // Register platform-specific StepCounterService
+            builder.Services.AddSingleton<IStepCounterService>(provider =>
+            {
+#if ANDROID
+                return new StepCounterService();
+#elif IOS
+                return new StepCounterService();
+#else
+                return new DummyStepCounterService();
+#endif
+            });
 
             return builder.Build();
         }

@@ -1,0 +1,28 @@
+﻿@page "/steps"
+@using MAUI_Blazor_Nonsense_App.Services
+@inject IStepCounterService StepCounter
+
+<h3>Step Counter</h3>
+
+<RadzenCard>
+    <p>Steps: @steps</p>
+    <RadzenButton Text="Start" Click="@Start" />
+</RadzenCard>
+
+@code {
+    int steps = 0;
+
+    protected override void OnInitialized()
+    {
+        StepCounter.OnStep += count =>
+        {
+            steps = count;
+            InvokeAsync(StateHasChanged);
+        };
+    }
+
+    void Start()
+    {
+        StepCounter.Start();
+    }
+}
